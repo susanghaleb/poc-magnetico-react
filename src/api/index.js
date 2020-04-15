@@ -40,8 +40,4 @@ const deleteToken = () => {
   axios.defaults.headers.common["Authorization"] = null;
 };
 
-export default {
-  api,
-  setToken,
-  deleteToken,
-};
+export { api, setToken, deleteToken };
